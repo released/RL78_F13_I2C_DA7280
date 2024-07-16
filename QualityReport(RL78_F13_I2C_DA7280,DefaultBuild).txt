@@ -1,84 +1,12 @@
 QualityReport
-2024年4月2日 上午 09:37:36
+2024年4月11日 下午 05:32:57
 
 ------ Start build(RL78_F13_I2C_DA7280, DefaultBuild) ------
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe custom_func.c -cpu=S3 -o DefaultBuild\custom_func.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_d08779569bf44a15ad7a4d6a2ef116fdez3nltnp.jdq -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe misc_config.c -cpu=S3 -o DefaultBuild\misc_config.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_f9881de77da54e3088d60e9b8f6394accqn1fkbl.cxk -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe simple_i2c_drive.c -cpu=S3 -o DefaultBuild\simple_i2c_drive.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_74a3edd5bc844873baa4f8e42b31eb76drhsko31.1r2 -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_systeminit.c -cpu=S3 -o DefaultBuild\r_systeminit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_92eed8cff4b247c0bbfd350b63f21264i1qjlvrg.vci -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_cgc_user.c -cpu=S3 -o DefaultBuild\r_cg_cgc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_66574232c05d4befa73784b29b2ac71au4f50yzp.a1e -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_port_user.c -cpu=S3 -o DefaultBuild\r_cg_port_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_f86372e989424c269a385ca0061b2999wjhvcapg.p2k -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_intc_user.c -cpu=S3 -o DefaultBuild\r_cg_intc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_9dbe5a858c59435abb85ad5646355904nyml2lqg.rex -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_serial_user.c -cpu=S3 -o DefaultBuild\r_cg_serial_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_343341c47d4a4201ac9279ef193795cccx3yreij.d4f -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe simple_DA7280_driver.c -cpu=S3 -o DefaultBuild\simple_DA7280_driver.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_237b163b51444725b4710809775e776e21mzz5kw.ehm -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_serial.c -cpu=S3 -o DefaultBuild\r_cg_serial.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_014a5872b9724e878e01025bb4937040d24vchy3.4ur -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_cgc.c -cpu=S3 -o DefaultBuild\r_cg_cgc.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_37d472269b774ce3948c926552ac0ad2mqkjr2tz.niu -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_port.c -cpu=S3 -o DefaultBuild\r_cg_port.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_82d1082446b7452799145510d4a7f3012id4jz1w.dsm -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_main.c -cpu=S3 -o DefaultBuild\r_main.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_346d2dcfc72e45aca6400ba5cee02a49mk4cooel.u4f -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_intc.c -cpu=S3 -o DefaultBuild\r_cg_intc.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_6533d3434937450896734c394e8ff836v2vzqtof.zkx -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_timer.c -cpu=S3 -o DefaultBuild\r_cg_timer.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_380ba84eadfa4793bf9591ce520c4001wgle1gzs.qwe -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe r_cg_timer_user.c -cpu=S3 -o DefaultBuild\r_cg_timer_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I .\ -I . -I DA7280 -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_6c0c9e7ae350447797c9d073c235daa7cj5cpaqt.5ft -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe stkinit.asm -cpu=S3 -o DefaultBuild\stkinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_cdcda0a07b07456bab0d0e445d2b0179py1rebwd.hvp -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe cstart.asm -cpu=S3 -o DefaultBuild\cstart.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_bc83376db32749099619d190e7dac3f1o1uc0eqt.2rt -msg_lang=english
-C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -MAKEUD=DefaultBuild\RL78_F13_I2C_DA7280.lk.ud -subcommand=DefaultBuild\RL78_F13_I2C_DA7280.clnk
-W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
-RAMDATA SECTION:  000000ae Byte(s)
-ROMDATA SECTION:  00000e01 Byte(s)
-PROGRAM SECTION:  000060b2 Byte(s)
-W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
-Renesas Optimizing Linker Completed
------- Build ended(Error:0, Warning:2)(RL78_F13_I2C_DA7280, DefaultBuild) ------
-
---- CommandFile 1 ---
-DefaultBuild\RL78_F13_I2C_DA7280.clnk :
--Input=DefaultBuild\cstart.obj
--Input=DefaultBuild\stkinit.obj
--Input=DefaultBuild\r_main.obj
--Input=DefaultBuild\r_systeminit.obj
--Input=DefaultBuild\r_cg_cgc.obj
--Input=DefaultBuild\r_cg_cgc_user.obj
--Input=DefaultBuild\r_cg_port.obj
--Input=DefaultBuild\r_cg_port_user.obj
--Input=DefaultBuild\r_cg_intc.obj
--Input=DefaultBuild\r_cg_intc_user.obj
--Input=DefaultBuild\r_cg_serial.obj
--Input=DefaultBuild\r_cg_serial_user.obj
--Input=DefaultBuild\r_cg_timer.obj
--Input=DefaultBuild\r_cg_timer_user.obj
--Input=DefaultBuild\custom_func.obj
--Input=DefaultBuild\misc_config.obj
--Input=DefaultBuild\simple_DA7280_driver.obj
--Input=DefaultBuild\simple_i2c_drive.obj
--SECURITY_ID=00000000000000000000
--DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF
--DEBug
--NOCOmpress
--NOOPtimize
--OUtput=DefaultBuild\RL78_F13_I2C_DA7280.abs
--OCDBG=84
--DEBUG_MONITOR=1FE00-1FFFF
--USER_OPT_BYTE=E9FFF8
--OCDTR
--LISt=DefaultBuild\RL78_F13_I2C_DA7280.map
--AUTO_SECTION_LAYOUT
--ROm=.data=.dataR
--ROm=.sdata=.sdataR
--NOMessage
--MEMory=High
--Total_size
--NOLOgo
--LIBrary=DefaultBuild\RL78_F13_I2C_DA7280.lib
--end
--Input=DefaultBuild\RL78_F13_I2C_DA7280.abs
--DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF
--OUtput=DefaultBuild\RL78_F13_I2C_DA7280.mot
--FOrm=Stype
--NOMessage
--exit
+------ Build ended(Error:0, Warning:0)(RL78_F13_I2C_DA7280, DefaultBuild) ------
 
 
 --- SHA1 hash value of output files ---
-D:\SourceCode\_Avery_Renesas\CS+\RL78_F13_I2C_DA7280\DefaultBuild\RL78_F13_I2C_DA7280.abs: 4bf6cbc47cfba13d390bcf66fd2e2343bde94c15
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F13_I2C_DA7280\DefaultBuild\RL78_F13_I2C_DA7280.abs: 8f30ae8a614024a0ab4060e580f19ba683fad5aa
 D:\SourceCode\_Avery_Renesas\CS+\RL78_F13_I2C_DA7280\DefaultBuild\RL78_F13_I2C_DA7280.mot: 765c11f82d8d043602943ed0351072c7de07a972
 
 
@@ -107,13 +35,13 @@ D:\SourceCode\_Avery_Renesas\CS+\RL78_F13_I2C_DA7280\DefaultBuild\RL78_F13_I2C_D
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *Memory Usage
  *Private Working Set
-  287 MB
+  323 MB
  *Number of GDI Objects
-  2379
+  2434
  *Number of USER Objects
-  1409
+  1460
  *Opened Files
-  7 editors, 7 files, 79 KB
+  7 editors, 7 files, 81 KB
 
 --- Build Tool Plug-in Information ---
 RH850 Build tool CC-RH Plug-in
